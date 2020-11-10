@@ -1,0 +1,21 @@
+/***********************************************
+                    Button
+************************************************/
+.button {
+    -fx-text-fill: #D7DDE5;
+    -fx-background-color: #858F9B;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-background-radius: 7px;
+    -jfx-button-type: RAISED;
+    -fx-font-size: 15px;
+}
+
+.button:hover {
+    -fx-background-color: #334150;
+    -fx-text-fill: #F7FAFF;
+}
+
+/************************************************/
+.transparent {
+
+}

@@ -1,0 +1,20 @@
+    
+}
+.combo-box .arrow{
+	-fx-outline: none;
+	-fx-content: "";
+	-fx-border-style: solid;
+	-fx-border-color: #8aa8bd transparent;
+    -fx-background-color: #fff;
+}
+.combo-box .arrow-button{
+    -fx-outline: none;
+	-fx-background-color: #fff transparent;
+}
+.combo-box .list-cell{
+	-fx-outline: none;
+    -fx-border-radius: inherit;
+    -fx-list-style: none;
+    -fx-border-margin:0px;
+}
+
