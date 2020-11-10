@@ -1,3 +1,3 @@
 # TMS
-#Design Pattren
+# Design Pattren
 TownSip Management System
