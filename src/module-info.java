@@ -1,4 +1,4 @@
-module Town.Management.System {
+module TMS {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.base;
