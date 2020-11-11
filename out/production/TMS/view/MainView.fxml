@@ -29,17 +29,17 @@
          <children>
             <Button mnemonicParsing="false" onAction="#dashboard" prefHeight="31.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Dashboard" />
             <Button mnemonicParsing="false" onAction="#management" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Management" />
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Account Management">
+            <Button mnemonicParsing="false" onAction="#AccountManagement" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Account Management">
                <font>
                   <Font size="11.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Reports" />
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Backup &amp; Restore" />
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Inventory" />
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Registration" />
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Expenditures" />
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="About Us" />
+            <Button mnemonicParsing="false" onAction="#Reports" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Reports" />
+            <Button mnemonicParsing="false" onAction="#BackupRestore" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Backup &amp; Restore" />
+            <Button mnemonicParsing="false" onAction="#Inventory" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Inventory" />
+            <Button mnemonicParsing="false" onAction="#Registration" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Registration" />
+            <Button mnemonicParsing="false" onAction="#Expenditures" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="Expenditures" />
+            <Button mnemonicParsing="false" onAction="#AboutUs" prefHeight="35.0" prefWidth="221.0" stylesheets="@../stylesheet/Button.css" text="About Us" />
          </children>
          <padding>
             <Insets left="-2.0" />
