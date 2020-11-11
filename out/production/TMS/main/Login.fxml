@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="700.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <children>
+      <Pane prefHeight="427.0" prefWidth="700.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: #000032;">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="700.0" layoutX="-1.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Login.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="337.0" layoutY="48.0" prefHeight="317.0" prefWidth="343.0" style="-fx-background-radius: 20; -fx-background-color: white;">
+         <children>
+            <TextField layoutX="25.0" layoutY="131.0" prefHeight="30.0" prefWidth="300.0" promptText="Email/Username" />
+            <TextField layoutX="25.0" layoutY="173.0" prefHeight="30.0" prefWidth="300.0" promptText="Password" />
+            <ImageView fitHeight="73.0" fitWidth="71.0" layoutX="139.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/TMS.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="140.0" layoutY="75.0" text="Login">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="login_btn" layoutX="43.0" layoutY="235.0" mnemonicParsing="false" onAction="#Login_Action" prefHeight="30.0" prefWidth="100.0" text="Log In" />
+            <Button fx:id="close_btn" layoutX="188.0" layoutY="235.0" mnemonicParsing="false" onAction="#Close_Action" prefHeight="30.0" prefWidth="100.0" text="Close" />
+         </children>
+      </Pane>
+      <Label layoutX="30.0" layoutY="34.0" text="Welcome" textFill="#43fa00">
+         <font>
+            <Font name="Bookman Old Style" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="140.0" text="Town Management System" textFill="RED">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="94.0" prefHeight="44.0" prefWidth="157.0" text="IDEAL" textFill="RED">
+         <font>
+            <Font name="Bell MT Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
