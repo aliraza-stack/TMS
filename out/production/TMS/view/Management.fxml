@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
@@ -9,6 +10,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
@@ -24,13 +26,18 @@
          <Pane layoutX="9.0" layoutY="43.0" prefHeight="6.0" prefWidth="25.0" style="-fx-background-color: #0462F6;" />
          <TableView layoutY="80.0" prefHeight="605.0" prefWidth="760.0">
            <columns>
-             <TableColumn prefWidth="33.0" text="C1" />
-             <TableColumn prefWidth="130.0" text="C2" />
-               <TableColumn prefWidth="170.0" text="Column X" />
+             <TableColumn prefWidth="58.0" text="C1" />
+             <TableColumn prefWidth="93.0" text="C2" />
+               <TableColumn prefWidth="112.0" text="Column X" />
+               <TableColumn prefWidth="109.0" text="Column X" />
+               <TableColumn prefWidth="92.0" text="Column X" />
+               <TableColumn prefWidth="82.0" text="Column X" />
+               <TableColumn prefWidth="103.0" text="Column X" />
+               <TableColumn prefWidth="110.0" text="Column X" />
            </columns>
          </TableView>
-         <TextField fx:id="searchBox1" layoutX="421.0" layoutY="55.0" prefHeight="25.0" prefWidth="334.0" styleClass="transparent" />
-         <Button layoutX="684.0" layoutY="55.0" prefHeight="25.0" prefWidth="71.0" text="Search">
+         <TextField fx:id="searchBox1" layoutX="421.0" layoutY="53.0" prefHeight="25.0" prefWidth="334.0" styleClass="transparent" />
+         <Button layoutX="684.0" layoutY="53.0" prefHeight="25.0" prefWidth="71.0" text="Search">
             <graphic>
                <ImageView fitHeight="14.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                   <image>
@@ -49,7 +56,88 @@
             </Label>
             <Line endX="276.5" layoutX="110.0" layoutY="46.0" startX="-100.0" />
             <Pane layoutX="9.0" layoutY="43.0" prefHeight="6.0" prefWidth="25.0" style="-fx-background-color: #0462F6;" />
-            <Button layoutX="235.0" layoutY="12.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" stylesheets="@../stylesheet/Button.css" text="Add Contact" />
+            <Button layoutX="228.0" layoutY="641.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" stylesheets="@../stylesheet/Button.css" text="Add Plot" />
+            <VBox layoutY="58.0" prefHeight="484.0" prefWidth="394.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="394.0" text="Plot No">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField prefHeight="25.0" prefWidth="394.0" promptText="Plot Number">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="394.0" text="Plot Size in Length Width">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="10.0" layoutY="40.0" prefHeight="25.0" prefWidth="394.0" promptText="Plot Size in Length Width">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="10.0" layoutY="70.0" prefHeight="30.0" prefWidth="394.0" text="Plot Size in Marla">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="10.0" layoutY="100.0" prefHeight="25.0" prefWidth="394.0" promptText="Plot Size in Marla">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="10.0" layoutY="130.0" prefHeight="30.0" prefWidth="394.0" text="Plot Price Per Marla">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="10.0" layoutY="160.0" prefHeight="25.0" prefWidth="394.0" promptText="Plot Price Per Marla">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="10.0" layoutY="181.0" prefHeight="30.0" prefWidth="394.0" text="Totral Price">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="10.0" layoutY="208.0" prefHeight="25.0" prefWidth="394.0" promptText="Totral Price">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="10.0" layoutY="238.0" prefHeight="30.0" prefWidth="394.0" text="Type">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox prefHeight="30.0" prefWidth="394.0" />
+                  <Label prefHeight="30.0" prefWidth="394.0" text="Remarks">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField prefHeight="25.0" prefWidth="394.0" promptText="Remarks">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label prefHeight="30.0" prefWidth="394.0" text="Plot Location">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField prefHeight="25.0" prefWidth="394.0" promptText="Plot Location">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </VBox>
+            <Button layoutX="55.0" layoutY="641.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" stylesheets="@../stylesheet/Button.css" text="Update Plot" />
          </children>
       </Pane>
    </Pane>
