@@ -45,11 +45,12 @@
             <graphic>
                <ImageView fitHeight="14.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../images/Search.png" />
+                     <Image url="@../../images/Search.png" />
                   </image>
                </ImageView>
             </graphic>
          </Button>
+         <Button layoutX="604.0" layoutY="8.0" mnemonicParsing="false" onAction="#mapview" prefHeight="30.0" prefWidth="152.0" stylesheets="@../../stylesheet/Button.css" text="Map View" />
       </Pane>
       <Pane layoutX="760.0" prefHeight="685.0" prefWidth="394.0" style="-fx-background-color: #DBDBDB; -fx-border-color: gray;">
          <children>
@@ -60,7 +61,7 @@
             </Label>
             <Line endX="276.5" layoutX="110.0" layoutY="46.0" startX="-100.0" />
             <Pane layoutX="9.0" layoutY="43.0" prefHeight="6.0" prefWidth="25.0" style="-fx-background-color: #0462F6;" />
-            <Button layoutX="228.0" layoutY="641.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" stylesheets="@../stylesheet/Button.css" text="Add Plot" />
+            <Button layoutX="228.0" layoutY="641.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" stylesheets="@../../stylesheet/Button.css" text="Add Plot" />
             <VBox layoutY="58.0" prefHeight="484.0" prefWidth="390.0">
                <children>
                   <Label prefHeight="30.0" prefWidth="394.0" text="Plot No">
@@ -144,7 +145,7 @@
                   <Insets left="2.0" />
                </padding>
             </VBox>
-            <Button layoutX="55.0" layoutY="641.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" stylesheets="@../stylesheet/Button.css" text="Update Plot" />
+            <Button layoutX="55.0" layoutY="641.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" stylesheets="@../../stylesheet/Button.css" text="Update Plot" />
          </children>
       </Pane>
    </Pane>

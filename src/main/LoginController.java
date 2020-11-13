@@ -19,7 +19,7 @@ public class LoginController {
     }
     
     public void Login_Click() throws IOException {
-        Parent Layout = FXMLLoader.load(getClass().getResource("/View/MainView.fxml"));
+        Parent Layout = FXMLLoader.load(getClass().getResource("/view/mainview/MainView.fxml"));
         Stage stage = new Stage();
         stage.setScene(new Scene(Layout));
         stage.setMaximized(true);

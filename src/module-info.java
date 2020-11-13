@@ -10,5 +10,14 @@ module TMS {
 
     opens controller;
     opens main;
-    opens view;
+    opens view.aboutus;
+    opens view.accountmanagement;
+    opens view.backup_restore;
+    opens view.dashboard;
+    opens view.expenditures;
+    opens view.inventory;
+    opens view.mainview;
+    opens view.management;
+    opens view.registration;
+    opens view.reports;
 }

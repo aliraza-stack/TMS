@@ -23,7 +23,7 @@
                <Font name="System Bold" size="16.0" />
             </font>
          </Label>
-         <ComboBox layoutX="686.0" layoutY="15.0" prefWidth="150.0" promptText="Days" style="-fx-position-shape: relative; -fx-pref-width: 100px; -fx-background-color: #fff; -fx-border-radius: 40;" stylesheets="@../stylesheet/Combo-Box.css">
+         <ComboBox layoutX="686.0" layoutY="15.0" prefWidth="150.0" promptText="Days" style="-fx-position-shape: relative; -fx-pref-width: 100px; -fx-background-color: #fff; -fx-border-radius: 40;" stylesheets="@../../stylesheet/Combo-Box.css">
             <cursor>
                <Cursor fx:constant="HAND" />
             </cursor>
@@ -42,10 +42,10 @@
          </Label>
          <Line endX="233.0" layoutX="111.0" layoutY="49.0" startX="-100.0" />
          <Pane layoutX="10.0" layoutY="46.0" prefHeight="6.0" prefWidth="25.0" style="-fx-background-color: #0462F6;" />
-         <Button layoutX="14.0" layoutY="77.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="334.0" stylesheets="@../stylesheet/Button.css" text="Discount" />
-         <Button layoutX="14.0" layoutY="114.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="334.0" stylesheets="@../stylesheet/Button.css" text="Town Details" />
-         <Button layoutX="14.0" layoutY="150.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="334.0" stylesheets="@../stylesheet/Button.css" text="Agents" />
-         <Button layoutX="14.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="334.0" stylesheets="@../stylesheet/Button.css" text="Staff Management" />
+         <Button layoutX="14.0" layoutY="77.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="334.0" stylesheets="@../../stylesheet/Button.css" text="Discount" />
+         <Button layoutX="14.0" layoutY="114.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="334.0" stylesheets="@../../stylesheet/Button.css" text="Town Details" />
+         <Button layoutX="14.0" layoutY="150.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="334.0" stylesheets="@../../stylesheet/Button.css" text="Agents" />
+         <Button layoutX="14.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="334.0" stylesheets="@../../stylesheet/Button.css" text="Staff Management" />
       </Pane>
       <Pane layoutY="235.0" prefHeight="450.0" prefWidth="790.0" style="-fx-background-color: #DBDBDB; -fx-border-color: gray;">
          <TableView layoutX="7.0" layoutY="58.0" prefHeight="385.0" prefWidth="775.0">
@@ -67,7 +67,7 @@
          <Button layoutX="691.0" layoutY="13.0" prefHeight="25.0" prefWidth="86.0" text="Search">
             <graphic>
                <ImageView fitHeight="14.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
-                  <Image url="@../images/Search.png" />
+                  <Image url="@../../images/Search.png" />
                </ImageView>
             </graphic>
          </Button>
@@ -92,12 +92,12 @@
             <graphic>
                <ImageView fitHeight="14.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../images/Search.png" />
+                     <Image url="@../../images/Search.png" />
                   </image>
                </ImageView>
             </graphic>
          </Button>
-         <Button layoutX="193.0" layoutY="11.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" stylesheets="@../stylesheet/Button.css" text="Add Contact" />
+         <Button layoutX="193.0" layoutY="11.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" stylesheets="@../../stylesheet/Button.css" text="Add Contact" />
       </Pane>
    </Pane>
 </AnchorPane>

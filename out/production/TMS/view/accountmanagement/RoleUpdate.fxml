@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RoleUpdate">
+   <children>
+      <SplitPane dividerPositions="0.9949832775919732" prefHeight="400.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Pane prefHeight="398.0" prefWidth="592.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="600.0" style="-fx-background-color: #4B9BD2;">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="30.0" prefWidth="600.0" text="Add Role">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Button layoutX="100.0" layoutY="299.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" stylesheets="@../../stylesheet/Button.css" text="Add Role">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <VBox layoutX="50.0" layoutY="70.0" prefHeight="214.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="25.0" prefWidth="200.0" text="Enter Role">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="25.0" prefWidth="200.0" promptText="Enter Role" />
+                              <Label layoutX="50.0" prefHeight="25.0" prefWidth="200.0" text="Select Your Role">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox prefHeight="25.0" prefWidth="200.0" />
+                              <Label prefHeight="25.0" prefWidth="200.0" text="Password">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <PasswordField prefHeight="25.0" prefWidth="200.0" promptText="Enter Your Password" />
+                           </children>
+                        </VBox>
+                        <Line endX="-10.0" endY="317.0" layoutX="310.0" layoutY="81.0" startX="-10.0" startY="-50.0" strokeWidth="2.0" />
+                        <Button layoutX="365.0" layoutY="299.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" stylesheets="@../../stylesheet/Button.css" text="Delete Role">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <VBox layoutX="340.0" layoutY="71.0" prefHeight="214.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="25.0" prefWidth="200.0" text="Enter Role">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="25.0" prefWidth="200.0" promptText="Enter Role" />
+                              <Label layoutX="50.0" prefHeight="25.0" prefWidth="200.0" text="Select Your Role">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox prefHeight="25.0" prefWidth="200.0" />
+                              <Label prefHeight="25.0" prefWidth="200.0" text="Password">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <PasswordField prefHeight="25.0" prefWidth="200.0" promptText="Enter Your Password" />
+                           </children>
+                        </VBox>
+                        <Label layoutX="511.0" layoutY="30.0" text="&lt;&lt;&lt;Swipe Left" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Pane prefHeight="398.0" prefWidth="592.0">
+                     <children>
+                        <Pane prefHeight="30.0" prefWidth="600.0" style="-fx-background-color: #4B9BD2;">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="30.0" prefWidth="600.0" text="Update Role">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Button layoutX="221.0" layoutY="340.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" stylesheets="@../../stylesheet/Button.css" text="Update Role">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <VBox layoutX="150.0" layoutY="50.0" prefHeight="214.0" prefWidth="300.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="25.0" prefWidth="300.0" text="Enter New Role">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="25.0" prefWidth="200.0" promptText="Enter New Role" />
+                              <Label layoutX="50.0" prefHeight="25.0" prefWidth="300.0" text="Select Old Role">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox prefHeight="25.0" prefWidth="300.0" />
+                              <Label layoutX="10.0" layoutY="82.0" prefHeight="25.0" prefWidth="300.0" text="Select Your Role">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox layoutX="10.0" layoutY="119.0" prefHeight="25.0" prefWidth="300.0" />
+                              <Label prefHeight="25.0" prefWidth="300.0" text="Password">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <PasswordField prefHeight="25.0" prefWidth="200.0" promptText="Enter Your Password" />
+                           </children>
+                        </VBox>
+                        <Label layoutY="30.0" text="Swipe Right&gt;&gt;&gt;" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
