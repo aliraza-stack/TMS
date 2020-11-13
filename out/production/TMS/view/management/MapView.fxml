@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="705.0" prefWidth="1370.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MapView">
+<AnchorPane prefHeight="705.0" prefWidth="1370.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.management.controllers.MapView">
    <children>
       <ImageView fitHeight="705.0" fitWidth="1370.0" pickOnBounds="true" preserveRatio="true" />
    </children>
