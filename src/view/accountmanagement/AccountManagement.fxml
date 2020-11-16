@@ -3,12 +3,13 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane prefHeight="685.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.accountmanagement.controllers.AccountManagement">
    <children>
@@ -23,14 +24,14 @@
                   </Label>
                </children>
             </Pane>
-            <Button layoutX="300.0" layoutY="357.0" mnemonicParsing="false" onAction="#addupdaterole" prefHeight="25.0" prefWidth="200.0" stylesheets="@../../stylesheet/Button.css" text="Add/Update Role" />
-            <Label alignment="CENTER" layoutY="69.0" prefHeight="30.0" prefWidth="1150.0" text="Add New User">
+            <Button layoutX="102.0" layoutY="357.0" mnemonicParsing="false" onAction="#addupdaterole" prefHeight="25.0" prefWidth="200.0" stylesheets="@../../stylesheet/Button.css" text="Add/Update Role" />
+            <Label alignment="CENTER" layoutY="70.0" prefHeight="30.0" prefWidth="575.0" text="Add New User">
                <font>
                   <Font name="System Bold" size="17.0" />
                </font>
             </Label>
             <Label alignment="CENTER" layoutY="30.0" prefWidth="1150.0" text="This Page is only for the Administrator. Who can give and take authorties from the other users." />
-            <VBox layoutX="300.0" layoutY="140.0" prefHeight="200.0" prefWidth="150.0" spacing="10.0">
+            <VBox layoutX="102.0" layoutY="140.0" prefHeight="200.0" prefWidth="150.0" spacing="10.0">
                <children>
                   <Label prefHeight="25.0" prefWidth="150.0" text="Username">
                      <font>
@@ -57,32 +58,38 @@
                         <Font size="14.0" />
                      </font>
                   </Label>
+                  <Label layoutX="10.0" layoutY="115.0" prefHeight="25.0" prefWidth="150.0" text="Admin Password">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
                </children>
             </VBox>
-            <VBox layoutX="450.0" layoutY="140.0" prefHeight="200.0" prefWidth="300.0" spacing="10.0">
+            <VBox layoutX="252.0" layoutY="140.0" prefHeight="200.0" prefWidth="300.0" spacing="10.0">
                <children>
                   <TextField />
                   <TextField layoutX="10.0" layoutY="10.0" />
                   <TextField layoutX="10.0" layoutY="35.0" />
                   <TextField layoutX="10.0" layoutY="60.0" />
                   <ComboBox prefWidth="300.0" />
+                  <TextField layoutX="10.0" layoutY="115.0" />
                </children>
             </VBox>
-            <Button layoutX="550.0" layoutY="357.0" mnemonicParsing="false" onAction="#addnewuser" prefHeight="25.0" prefWidth="200.0" stylesheets="@../../stylesheet/Button.css" text="Add New User" />
-            <Label alignment="CENTER" layoutY="427.0" prefHeight="30.0" prefWidth="1150.0" text="Change Password">
+            <Button layoutX="352.0" layoutY="357.0" mnemonicParsing="false" onAction="#addnewuser" prefHeight="25.0" prefWidth="200.0" stylesheets="@../../stylesheet/Button.css" text="Add New User" />
+            <Label alignment="CENTER" layoutY="427.0" prefHeight="30.0" prefWidth="575.0" text="Change Password">
                <font>
                   <Font name="System Bold" size="17.0" />
                </font>
             </Label>
-            <Button layoutX="425.0" layoutY="635.0" mnemonicParsing="false" onAction="#changepassword" prefHeight="25.0" prefWidth="200.0" stylesheets="@../../stylesheet/Button.css" text="Change Password" />
-            <VBox layoutX="300.0" layoutY="488.0" prefHeight="146.0" prefWidth="150.0" spacing="10.0">
+            <Button layoutX="227.0" layoutY="635.0" mnemonicParsing="false" onAction="#changepassword" prefHeight="25.0" prefWidth="200.0" stylesheets="@../../stylesheet/Button.css" text="Change Password" />
+            <VBox layoutX="102.0" layoutY="488.0" prefHeight="146.0" prefWidth="150.0" spacing="10.0">
                <children>
-                  <Label prefHeight="25.0" prefWidth="150.0" text="Username">
+                  <Label prefHeight="25.0" prefWidth="150.0" text="Old Password">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="150.0" text="Password">
+                  <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="150.0" text="New Password">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -99,7 +106,7 @@
                   </Label>
                </children>
             </VBox>
-            <VBox layoutX="450.0" layoutY="488.0" prefHeight="146.0" prefWidth="300.0" spacing="10.0">
+            <VBox layoutX="252.0" layoutY="488.0" prefHeight="146.0" prefWidth="300.0" spacing="10.0">
                <children>
                   <TextField />
                   <TextField layoutX="10.0" layoutY="10.0" />
@@ -107,6 +114,19 @@
                   <ComboBox prefWidth="300.0" />
                </children>
             </VBox>
+            <Label alignment="CENTER" layoutX="575.0" layoutY="70.0" prefHeight="30.0" prefWidth="575.0" text="List Of Users">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <TableView layoutX="604.0" layoutY="140.0" prefHeight="535.0" prefWidth="517.0">
+              <columns>
+                <TableColumn prefWidth="41.0" text="Sr.No" />
+                <TableColumn prefWidth="146.0" text="Username" />
+                  <TableColumn prefWidth="166.0" text="Name" />
+                  <TableColumn prefWidth="163.0" text="Role" />
+              </columns>
+            </TableView>
          </children>
       </Pane>
    </children>
